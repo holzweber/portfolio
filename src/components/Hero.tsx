@@ -1,10 +1,9 @@
 import { styles } from '../styles'
-import { PlanetCanvas } from './canvas'
 
 
 const Hero = () => {
 
-let CONTENT = ["Artifical Intelligence.", "Data Science.", "Deep Learning.", "Digitalization.", "Full Stack Development."]
+let CONTENT = ["Artifical Intelligence.", "Data Science.", "Deep Learning.", "Digitalisation.", "Full Stack Development."]
 
 
 // Current sentence being processed
@@ -148,32 +147,36 @@ function Delete() {
 
 }
 
+return (
+  <section className="relative w-full min-h-[500px]">
+    <div
+      className={`${styles.paddingX} max-w-7xl mx-auto flex flex-row items-start gap-5 pt-[120px]`}
+    >
+      <div className="flex flex-col justify-center items-center mt-5 typewriter">
+        <div className="w-5 h-5 rounded-full bg-[#915eff]" />
+        <div className="w-1 sm:h-80 h-40 violet-gradient" />
+      </div>
 
-  return (
-    <div className='w-full v-screen mx-auto my-auto pb-10'>
-    <section className='relative w-full v-screen mx-auto my-auto'>
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
-      <div className='flex flex-col justify-center items-center mt-5 typewriter'>
-         <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
-         <div className='w-1 sm:h-80 h-40 violet-gradient'/>
-         </div>
-          <div>
-            <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Christopher</span></h1>
-            
-            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              Computer Scientist with a passion for <br className='sm:block hidden'/></p>
-              <div className={`${styles.heroSubText} text-white`} id="text"></div><div id="cursor"></div>
-          </div>
+      <div>
+        <h1 className={`${styles.heroHeadText} text-white`}>
+          Hi, I'm <span className="text-[#915eff]">Christopher</span>
+        </h1>
+
+        <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          Computer Scientist with a passion for{" "}
+          <br className="sm:block hidden" />
+        </p>
+
+        <div
+          className={`${styles.heroSubText} text-white`}
+          id="text"
+        />
+
+        <div id="cursor" />
       </div>
-      </section>
-      <section className='relative w-full h-screen mx-auto justify-center'>
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
-      <PlanetCanvas />
-      </div>
-    </section>
     </div>
-  )
-
+  </section>
+)
 
 }
 
