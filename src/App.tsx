@@ -16,7 +16,6 @@ const App  = () => {
         <Works/>
         {/*<Feedbacks/>*/}
         <footer className="ml-5 mr-5 pt-5">
-        <p>3D-Model License: <a href="https://sketchfab.com/cmzw">"Stylized planet" by cmzw (CC-BY-4.0)</a></p>
         <p>© Christopher Holzweber {year} </p>
         </footer>
       </div>

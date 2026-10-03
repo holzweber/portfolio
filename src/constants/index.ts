@@ -65,7 +65,7 @@ import {
       icon: deeplearning,
     },
     {
-      title: "Industrial Digitalization",
+      title: "Industrial Digitalisation",
       icon: industry,
     },
   ];
@@ -228,10 +228,10 @@ import {
       company_name: "BMW Group in Austria",
       icon: bmw,
       iconBg: "#E6DEDD",
-      date: "July 2023 - Present",
+      date: "July 2023 - Feb. 2026",
       points: [
         "Full Stack Software Development specialist with a focus on advanced AI integration for shopfloor operations.",
-        "Leads digitalization efforts plant-wide, fostering interdepartmental collaboration for innovative solutions",
+        "Leads Digitalisation efforts plant-wide, fostering interdepartmental collaboration for innovative solutions",
         "Utilizes data assets effectively to enhance operational efficiency and quality assurance",
         "Industrializes cutting-edge tools for seamless integration into existing systems",
         "Ensures top-tier quality assurance through innovative digital solutions"
@@ -249,6 +249,20 @@ import {
         "Providing guidance and support during practical exercises focusing on Business Analytics and Data Analytics concepts",
         "Delivering comprehensive instruction on R programming tailored to the needs of Business Analytics students",
         "Facilitating hands-on learning experiences to enhance understanding and application of Business Analytics principles"
+      ],
+    },
+        {
+      title: "Expert Innovation & Digitalisation",
+      company_name: "BMW Group in Austria",
+      icon: bmw,
+      iconBg: "#E6DEDD",
+      date: "Feb. 2026 - Present",
+      points: [
+        "As part of the Innovation & Digitalisation Lab (InnoLab), I support the digital transformation of manufacturing processes by combining strategic Digitalisation initiatives with hands-on software development.",
+        "Industrial Artificial Intelligence and Machine Learning",
+        "Full-stack software development",
+        "Cloud-based solutions and digital platforms",
+        "Data-driven optimization of manufacturing processes"
       ],
     },
   ];
